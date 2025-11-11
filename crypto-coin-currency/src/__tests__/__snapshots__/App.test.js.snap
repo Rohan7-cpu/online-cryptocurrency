@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component snapshot renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app-container dark-theme"
+  >
+    <div
+      class="nav-container"
+    >
+      <nav
+        class="w-full bg-gradient-to-r from-indigo-600 to-purple-500 shadow-md py-4"
+      >
+        <div
+          class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4"
+        >
+          <div
+            class="flex items-center gap-4"
+          >
+            <img
+              alt="GoCoin Logo"
+              class="h-16 w-16 md:h-20 md:w-20 rounded-full shadow-lg"
+              src="Gocoin-photo.png"
+            />
+            <h1
+              class="text-3xl md:text-5xl font-extrabold text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-pink-500"
+            >
+              GO-COIN
+            </h1>
+          </div>
+          <div
+            class="mt-2 md:mt-0"
+          >
+            <p
+              class="text-white font-semibold text-sm md:text-lg animate-marquee"
+            >
+              Your daily coin investment platform
+            </p>
+          </div>
+        </div>
+        <style>
+          
+          @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+          }
+          .animate-marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+          }
+        
+        </style>
+      </nav>
+    </div>
+    <div
+      class="dashboard"
+    >
+      <div
+        class="dashboard-left"
+      >
+        <div
+          class="search-container"
+        >
+          <div
+            class="select-wrapper"
+          >
+            <label
+              class="select-label"
+            >
+              Currency
+            </label>
+            <select
+              class="currency-select enhanced"
+            >
+              <option
+                value="usd"
+              >
+                USD
+              </option>
+              <option
+                value="inr"
+              >
+                INR
+              </option>
+              <option
+                value="euro"
+              >
+                EURO
+              </option>
+              <option
+                value="aed"
+              >
+                AED
+              </option>
+              <option
+                value="yuan"
+              >
+                YUAN
+              </option>
+              <option
+                value="ruble"
+              >
+                RUBLE
+              </option>
+              <option
+                value="yen"
+              >
+                YEN
+              </option>
+            </select>
+          </div>
+          <form
+            class="search-form"
+          >
+            <input
+              class="search-input enhanced"
+              placeholder="Search Coin..."
+              type="search"
+              value=""
+            />
+          </form>
+        </div>
+        <div
+          class="chart-section"
+        >
+          <div
+            class="currency-dropdown enhanced"
+          >
+            <div
+              class="dropdown-toggle enhanced"
+            >
+              Cryptocurrency 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-20bmp1-MuiSvgIcon-root"
+                data-testid="KeyboardArrowDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            Mocked CryptocurrencyList
+          </div>
+        </div>
+        <div
+          class="portfolio-exchange-section"
+        >
+          <div
+            class="portfolio-chart"
+          >
+            <div
+              class="flex flex-col items-center w-full bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-4 shadow-lg"
+            >
+              <div
+                class="text-gray-400 font-medium text-center mt-10"
+              >
+                No coin data available
+              </div>
+            </div>
+          </div>
+          <div
+            class="exchange-section"
+          >
+            <div
+              style="max-width: 400px; margin: 20px auto; padding: 15px; border-radius: 12px; background-color: rgb(31, 41, 55); box-shadow: 0 6px 15px rgba(0,0,0,0.3);"
+            >
+              <h2
+                style="text-align: center; color: rgb(255, 255, 255); font-size: 1.5rem; margin-bottom: 15px; font-weight: bold;"
+              >
+                🔁 Crypto Exchange
+              </h2>
+              <div
+                style="display: flex; flex-direction: column; gap: 15px;"
+              >
+                <div
+                  style="background-color: rgb(55, 65, 81); padding: 10px; border-radius: 8px; border: 1px solid #f87171;"
+                >
+                  <label
+                    style="color: rgb(248, 113, 113); font-weight: 600; font-size: 0.9rem;"
+                  >
+                    From (Sell)
+                  </label>
+                  <div
+                    style="display: flex; gap: 8px; align-items: center; margin-top: 5px;"
+                  >
+                    <input
+                      min="0"
+                      placeholder="0.00"
+                      style="flex: 1; padding: 6px; border-radius: 6px; border: 1px solid #6b7280; background-color: rgb(17, 24, 39); color: rgb(248, 113, 113); font-weight: bold; font-size: 0.9rem;"
+                      type="number"
+                      value="1"
+                    />
+                    <select
+                      style="width: 90px; padding: 6px; border-radius: 6px; border: 1px solid #6b7280; background-color: rgb(17, 24, 39); color: rgb(255, 255, 255); font-weight: bold; font-size: 0.85rem;"
+                    />
+                  </div>
+                </div>
+                <div
+                  style="text-align: center; color: rgb(156, 163, 175); font-weight: 500; font-size: 0.85rem;"
+                >
+                  Rate: 1 bitcoin = 0.000000 ethereum
+                </div>
+                <div
+                  style="background-color: rgb(55, 65, 81); padding: 10px; border-radius: 8px; border: 1px solid #34d399;"
+                >
+                  <label
+                    style="color: rgb(52, 211, 153); font-weight: 600; font-size: 0.9rem;"
+                  >
+                    To (Buy)
+                  </label>
+                  <div
+                    style="display: flex; gap: 8px; align-items: center; margin-top: 5px;"
+                  >
+                    <input
+                      placeholder="0.000000"
+                      readonly=""
+                      style="flex: 1; padding: 6px; border-radius: 6px; border: 1px solid #6b7280; background-color: rgb(17, 24, 39); color: rgb(52, 211, 153); font-weight: bold; font-size: 0.9rem; cursor: default;"
+                      type="number"
+                      value="0"
+                    />
+                    <select
+                      style="width: 90px; padding: 6px; border-radius: 6px; border: 1px solid #6b7280; background-color: rgb(17, 24, 39); color: rgb(255, 255, 255); font-weight: bold; font-size: 0.85rem;"
+                    />
+                  </div>
+                </div>
+                <button
+                  style="margin-top: 12px; width: 60%; align-self: center; padding: 8px; border-radius: 6px; background-color: rgb(99, 102, 241); color: rgb(255, 255, 255); font-weight: bold; font-size: 0.9rem; cursor: pointer; transition: all 0.3s;"
+                >
+                  Execute Exchange
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="dashboard-right"
+      >
+        <div
+          class="bg-gray-900 rounded-2xl p-5 h-[670px] overflow-hidden shadow-xl"
+        >
+          <h3
+            class="text-2xl font-bold text-white mb-4 text-center"
+          >
+            Top Cryptocurrencies by 
+            <span
+              class="text-indigo-500"
+            >
+              Market Cap
+            </span>
+          </h3>
+          <ul
+            class="space-y-4 overflow-hidden max-h-[600px] scrollbar-hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <h1>
+        Made with ❤️ by Rohan ©️ 2025
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;
